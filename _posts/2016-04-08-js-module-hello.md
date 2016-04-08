@@ -1,9 +1,13 @@
 ---
 layout:     post
 title:      "始"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2016-04-08 12:00:00
+subtitle:   " \"Hello World, Hello Blog\" "
+date:       2016-04-07 12:00:00
 author:     "Dylan Sun"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 初
 ---
 
 
@@ -11,7 +15,7 @@ author:     "Dylan Sun"
 
 # 始
 
-开博原因一（zi）言（xing）难（nao）尽（bu），反正就开始写了。
+开博原因一（zi）言（xing）难（nao）尽（bu），反正就开始了。
 
 
 
@@ -20,9 +24,9 @@ author:     "Dylan Sun"
 
 在别人已经做好模版上面搭建还是挺容易的。这里要感谢 jekyll 和 github。 还要感谢 Hux 和 Clean Blog 的模版。
 
-欢迎联系交流建站。
+欢迎联系交流建站经验。
 
-# 基本原则
+# 本站基本原则
 
 1. 真实
 2. 原创
