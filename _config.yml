@@ -6,7 +6,7 @@ email: shanpaocungu@gmail.com
 description: ""
 keyword: ""
 url: "http://dylansunlei.com"              # your host, for absolute URL
-baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
