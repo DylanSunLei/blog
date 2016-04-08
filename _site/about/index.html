@@ -216,7 +216,7 @@
 <div class="comment">
     <div class="ds-thread"
     
-        data-thread-key="dylansunblog/about"
+        data-thread-key="dylansunlei/about"
     
 
     data-title="About"
@@ -225,7 +225,7 @@
 <!-- 多说评论框 end -->
 
 <!-- Duoshuo hacking -->
-<input id="dsUser" type="hidden" value="dylansunblog"  />
+<input id="dsUser" type="hidden" value="dylansunlei"  />
 
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
@@ -246,6 +246,29 @@
 
 
 
+
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "dylansunlei";
+    var disqus_identifier = "dylansunlei//about/";
+    var disqus_url = "http://dylansunlei.com/about/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
 
 
     		</div>
@@ -273,7 +296,7 @@
                     <hr><h5><a href="/blog/about/">ABOUT ME</a></h5>
                     <div class="short-about">
                         
-                            <img src="img/avatar-lei.jpg" />
+                            <img src="/blog/img/avatar-lei.jpg" />
                         
                         
                             <p>记录成长个人，分享改变世界</p>
@@ -293,7 +316,7 @@
                             
                             
                             <li>
-                                <a target="_blank" href="https://www.zhihu.com/people/zhihu">
+                                <a target="_blank" href="https://www.zhihu.com/people/dylan-sun-28">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa  fa-stack-1x fa-inverse">知</i>
@@ -303,7 +326,7 @@
                             
                             
                             <li>
-                                <a target="_blank" href="http://weibo.com/孙好黑">
+                                <a target="_blank" href="http://weibo.com/1659263107">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
@@ -371,7 +394,7 @@
                     <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
                     
                     <li>
-                        <a target="_blank" href="https://www.zhihu.com/people/zhihu">
+                        <a target="_blank" href="https://www.zhihu.com/people/dylan-sun-28">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa  fa-stack-1x fa-inverse">知</i>
@@ -381,7 +404,7 @@
                     
                     
                     <li>
-                        <a target="_blank" href="http://weibo.com/孙好黑">
+                        <a target="_blank" href="http://weibo.com/1659263107">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
@@ -472,7 +495,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("/js/jquery.tagcloud.js",function(){
+        async("/blog/js/jquery.tagcloud.js",function(){  //CANCER /blog
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
@@ -530,7 +553,7 @@
 
 
 <!-- Image to hack wechat -->
-<img src="/img/icon_wechat.png" width="0" height="0" />
+<img src="/blog/img/icon_wechat.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
 
 </body>

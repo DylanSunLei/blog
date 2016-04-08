@@ -69,7 +69,7 @@ ga_domain: dylansunlei.com
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "记录成长个人，分享改变世界"
-sidebar-avatar: /img/avatar-lei.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /blog/img/avatar-lei.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
