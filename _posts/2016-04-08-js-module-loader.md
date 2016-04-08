@@ -1,0 +1,32 @@
+---
+layout:     post
+title:      "始"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2016-04-08 12:00:00
+author:     "Dylan Sun"
+---
+
+
+
+
+# 始
+
+开博原因一（zi）言（xing）难（nao）尽（bu），反正就开始写了。
+
+
+
+
+# 博客搭建
+
+在别人已经做好模版上面搭建还是挺容易的。这里要感谢 jekyll 和 github。 还要感谢 Hux 和 Clean Blog 的模版。
+
+欢迎联系交流建站。
+
+# 基本原则
+
+1. 真实
+2. 原创
+3. 非原创的要 Verify 前人的 Work
+4. 严谨
+
+`博主有自基本原则的最终解释权`
