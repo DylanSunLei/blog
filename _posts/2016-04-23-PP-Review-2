@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      "PP final review 2"
+subtitle:   " Blobfish is not that ugly!"
+date:       2016-04-23 12:00:00
+author:     "Dylan Sun"
+
+catalog: true
+tags:
+    - CMU
+    - 15418
+---
+
+# Lec 13: Memory Consistency
+
+<img src="http://15418.courses.cs.cmu.edu/spring2016content/lectures/13_consistency/images/slide_005.jpg">
